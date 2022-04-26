@@ -1,5 +1,10 @@
 <template>
-  <header>header</header>
+  <header>
+    <div>
+      <img src="../assets/img/dark-logo.png" alt="" />
+      <i class="fa-solid fa-heart"></i>
+    </div>
+  </header>
 </template>
 
 <script>
