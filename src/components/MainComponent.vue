@@ -4,6 +4,7 @@
     <CoursesComponent />
     <SmartTutoringComponent />
     <ReviewComponent />
+    <StatisticsComponent />
   </main>
 </template>
 
@@ -12,6 +13,7 @@ import JumbotronComponent from "@/components/JumbotronComponent.vue";
 import CoursesComponent from "@/components/CoursesComponent.vue";
 import SmartTutoringComponent from "@/components/SmartTutoringComponent.vue";
 import ReviewComponent from "@/components/ReviewComponent.vue";
+import StatisticsComponent from "@/components/StatisticsComponent.vue";
 export default {
   name: "MainComponent",
   components: {
@@ -19,6 +21,7 @@ export default {
     CoursesComponent,
     SmartTutoringComponent,
     ReviewComponent,
+    StatisticsComponent,
   },
 };
 </script>
