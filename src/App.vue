@@ -28,4 +28,12 @@ export default {
 .color-grey {
   color: #9ea4a5;
 }
+.bg-lightgrey {
+  background-color: #f6f3f5;
+}
+.ff-btn {
+  color: white;
+  background-color: #1fad96;
+  padding: 10px 20px;
+}
 </style>
