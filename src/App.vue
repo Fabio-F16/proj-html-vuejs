@@ -20,4 +20,6 @@ export default {
 
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap";
+@import "~@fontsource/montserrat/index.css";
+@import "~@fontsource/montserrat/700.css";
 </style>

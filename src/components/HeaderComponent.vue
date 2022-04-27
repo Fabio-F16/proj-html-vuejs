@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div>
+    <div class="container d-flex justify-content-between">
       <img src="../assets/img/dark-logo.png" alt="" />
       <i class="fa-solid fa-heart"></i>
     </div>
