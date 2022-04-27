@@ -6,6 +6,7 @@
     <ReviewComponent />
     <StatisticsComponent />
     <BlogsComponent />
+    <NewslettersComponent />
   </main>
 </template>
 
@@ -16,6 +17,7 @@ import SmartTutoringComponent from "@/components/SmartTutoringComponent.vue";
 import ReviewComponent from "@/components/ReviewComponent.vue";
 import StatisticsComponent from "@/components/StatisticsComponent.vue";
 import BlogsComponent from "@/components/BlogsComponent.vue";
+import NewslettersComponent from "@/components/NewslettersComponent.vue";
 export default {
   name: "MainComponent",
   components: {
@@ -25,6 +27,7 @@ export default {
     ReviewComponent,
     StatisticsComponent,
     BlogsComponent,
+    NewslettersComponent,
   },
 };
 </script>
