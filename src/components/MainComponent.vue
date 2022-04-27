@@ -5,6 +5,7 @@
     <SmartTutoringComponent />
     <ReviewComponent />
     <StatisticsComponent />
+    <BlogsComponent />
   </main>
 </template>
 
@@ -14,6 +15,7 @@ import CoursesComponent from "@/components/CoursesComponent.vue";
 import SmartTutoringComponent from "@/components/SmartTutoringComponent.vue";
 import ReviewComponent from "@/components/ReviewComponent.vue";
 import StatisticsComponent from "@/components/StatisticsComponent.vue";
+import BlogsComponent from "@/components/BlogsComponent.vue";
 export default {
   name: "MainComponent",
   components: {
@@ -22,6 +24,7 @@ export default {
     SmartTutoringComponent,
     ReviewComponent,
     StatisticsComponent,
+    BlogsComponent,
   },
 };
 </script>

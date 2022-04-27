@@ -28,6 +28,9 @@ export default {
 .color-grey {
   color: #9ea4a5;
 }
+.color-lightgrey {
+  background-color: #f6f3f5;
+}
 .bg-lightgrey {
   background-color: #f6f3f5;
 }
