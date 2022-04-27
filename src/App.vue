@@ -22,4 +22,10 @@ export default {
 @import "~bootstrap/scss/bootstrap";
 @import "~@fontsource/montserrat/index.css";
 @import "~@fontsource/montserrat/700.css";
+.color-green {
+  color: #1fad96;
+}
+.color-grey {
+  color: #9ea4a5;
+}
 </style>

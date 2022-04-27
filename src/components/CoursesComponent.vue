@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container">
+    <div class="container py-5">
       <div class="row mt-5">
         <div class="col-12 text-center">
           <p>STIMULATED TO LEARN?</p>
@@ -115,6 +115,7 @@ export default {
     font-weight: bold;
   }
   span {
+    color: #9ea4a5;
     font-size: 0.8rem;
     margin-right: 25px;
   }
@@ -122,6 +123,7 @@ export default {
 .ff-btn {
   background-color: #1fad96;
   padding: 10px 20px;
+  margin-top: 35px;
   a {
     color: white;
     text-decoration: none;
