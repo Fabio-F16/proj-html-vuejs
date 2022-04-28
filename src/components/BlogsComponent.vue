@@ -120,4 +120,8 @@ i {
   font-size: 0.9rem;
   color: #9ea4a5;
 }
+.card-title:hover {
+  color: #1fad96;
+  cursor: pointer;
+}
 </style>

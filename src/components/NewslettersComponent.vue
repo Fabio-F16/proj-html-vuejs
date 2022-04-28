@@ -1,5 +1,5 @@
 <template>
-  <div class="container pt-5 flex-column">
+  <div class="container py-5 pb-md-0 flex-column">
     <div class="row justify-content-center">
       <div class="col-3">
         <h1 class="color-green align-middle">O</h1>

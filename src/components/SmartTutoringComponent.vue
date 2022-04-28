@@ -118,6 +118,7 @@ img[alt~="youtube"] {
   height: 15%;
   position: relative;
   z-index: 2;
+  cursor: pointer;
 }
 img[alt~="shape05"] {
   width: 150px;
