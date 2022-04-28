@@ -1,30 +1,33 @@
 <template>
   <div>
-    <div class="jumbotron">
+    <div class="jumbotron py-5">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-6">
-            <h1>Distant learning for further expansion</h1>
-            <p>
-              Learning is a life-long journey that in fact we nwever find the
+            <h1 class="color-blue">Distant learning for further expansion</h1>
+            <p class="color-grey">
+              Learning is a life-long journey that in fact we never find the
               terminate stop. Stop searching, enjoy the process
             </p>
             <button class="btn ff-btn">
               <i class="fa-solid fa-download"></i> Download free guide
             </button>
-            <p>
+            <p class="color-grey">
               Have questions?
-              <a href="#"
+              <a class="color-green" href="#"
                 >Get Free Sample <i class="fa-solid fa-arrow-right-long"></i
               ></a>
             </p>
           </div>
-          <div class="col-12 col-md-6">
+          <div class="pagination col-12 col-md-6">
             <img
-              class="rounded-circle w-100"
+              class="pagination rounded-circle"
               src="../assets/img/about-me-profile.jpg"
-              alt=""
+              alt="aboutMe"
             />
+            <img src="../assets/img/maxcoach-shape-02.png" alt="shape02" />
+            <img src="../assets/img/maxcoach-shape-07.png" alt="shape07" />
+            <img src="../assets/img/maxcoach-shape-08.png" alt="shape08" />
           </div>
         </div>
 
@@ -72,22 +75,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.jumbotron {
-  .ff-btn {
-    color: white;
-    background-color: #1fad96;
-    padding: 10px 20px;
-    i {
-      margin: 0px 10px;
-    }
-  }
-
-  .row {
-    margin-top: 50px;
-  }
+.row {
+  margin-top: 50px;
 }
+
 p:last-child {
   margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+
+img[alt~="aboutMe"] {
+  position: relative;
+  z-index: 100;
+}
+img[alt~="shape02"] {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right: 100px;
+}
+img[alt~="shape07"] {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right: 300px;
+  top: 350px;
+}
+img[alt~="shape08"] {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right: 140%;
+  top: 150px;
 }
 .logo {
   width: 75px;

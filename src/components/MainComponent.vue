@@ -7,6 +7,7 @@
     <StatisticsComponent />
     <BlogsComponent />
     <NewslettersComponent />
+    <FooterComponent />
   </main>
 </template>
 
@@ -18,6 +19,7 @@ import ReviewComponent from "@/components/ReviewComponent.vue";
 import StatisticsComponent from "@/components/StatisticsComponent.vue";
 import BlogsComponent from "@/components/BlogsComponent.vue";
 import NewslettersComponent from "@/components/NewslettersComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 export default {
   name: "MainComponent",
   components: {
@@ -28,12 +30,10 @@ export default {
     StatisticsComponent,
     BlogsComponent,
     NewslettersComponent,
+    FooterComponent,
   },
 };
 </script>
 
 <style lang="scss" scoped>
-// .col-12 {
-//   border: 1px solid black;
-// }
 </style>

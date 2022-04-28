@@ -96,7 +96,6 @@ export default {
 ul {
   padding: 0;
   list-style-type: none;
-  //   color: #9ea4a5;
   margin-top: 20px;
 
   li {
@@ -104,6 +103,11 @@ ul {
     font-size: 0.9rem;
     font-weight: bold;
   }
+}
+h5,
+h4,
+li {
+  color: #3f3a64;
 }
 i {
   margin-right: 10px;

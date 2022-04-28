@@ -54,6 +54,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+h6 {
+  color: #3f3a64;
+}
 .number {
   font-size: 2.5rem;
   font-weight: bold;

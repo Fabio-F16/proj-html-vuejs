@@ -25,11 +25,14 @@ export default {
 .color-green {
   color: #1fad96;
 }
+.color-blue {
+  color: #3f3a64;
+}
 .color-grey {
   color: #9ea4a5;
 }
 .color-lightgrey {
-  background-color: #f6f3f5;
+  color: #f6f3f5;
 }
 .bg-lightgrey {
   background-color: #f6f3f5;
@@ -38,5 +41,9 @@ export default {
   color: white;
   background-color: #1fad96;
   padding: 10px 20px;
+}
+.ff-btn:hover {
+  background-color: #3f3a64;
+  color: white;
 }
 </style>

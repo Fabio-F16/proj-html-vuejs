@@ -1,0 +1,24 @@
+[
+    {
+        "id": "1",
+        "title": "Explore",
+        "text": [
+            "Start here",
+            "Blog",
+            "About us",
+            "Success story",
+            "Courses",
+            "Contact us"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Information",
+        "text": [
+            "Membership",
+            "Ourchase guide",
+            "Privacy policy",
+            "Terms of services"
+        ]
+    }
+]

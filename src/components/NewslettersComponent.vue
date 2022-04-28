@@ -1,11 +1,13 @@
 <template>
-  <div class="container py-5 flex-column">
+  <div class="container pt-5 flex-column">
     <div class="row justify-content-center">
       <div class="col-3">
         <h1 class="color-green align-middle">O</h1>
       </div>
       <div class="col-6 text-center">
-        <h4>Subscribe <span class="color-green">NewsLetters</span></h4>
+        <h4 class="color-blue">
+          Subscribe <span class="color-green">NewsLetters</span>
+        </h4>
         <p class="color-grey">
           Enter your email address to register to our newsletter subscription
           delivered on a regular basis!

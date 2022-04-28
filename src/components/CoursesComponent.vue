@@ -1,10 +1,10 @@
 <template>
-  <section>
-    <div class="container py-5">
-      <div class="row mt-5">
+  <section class="bg-lightgrey py-5">
+    <div class="container">
+      <div class="row">
         <div class="col-12 text-center">
-          <p>STIMULATED TO LEARN?</p>
-          <h2>Featured Online Courses</h2>
+          <p class="color-grey">STIMULATED TO LEARN?</p>
+          <h2 class="color-blue">Featured Online Courses</h2>
         </div>
         <div class="col-12 col-md-6 d-flex mt-5 align-items-center">
           <img
@@ -110,6 +110,12 @@ export default {
 }
 .info {
   margin-left: 25px;
+  h6 {
+    color: #3f3a64;
+  }
+  h6:hover {
+    color: #1fad96;
+  }
   p:first-child {
     color: #1fad96;
     font-weight: bold;
