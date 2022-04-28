@@ -33,6 +33,11 @@
             <i class="fa-solid fa-copyright"></i> MaxCoach. All Rights Reserved
           </p>
         </div>
+        <div class="d-flex justify-content-end">
+          <button class="btn ff-btn">
+            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+          </button>
+        </div>
       </div>
     </div>
   </footer>
@@ -71,5 +76,14 @@ i {
 }
 .text-center i {
   font-size: 0.8rem;
+}
+button {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  text-align: center;
+  button i {
+    color: white;
+  }
 }
 </style>
