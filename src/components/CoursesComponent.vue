@@ -115,6 +115,7 @@ export default {
   }
   h6:hover {
     color: #1fad96;
+    cursor: pointer;
   }
   p:first-child {
     color: #1fad96;
