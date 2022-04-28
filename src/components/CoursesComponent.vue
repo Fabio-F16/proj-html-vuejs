@@ -87,7 +87,7 @@
       </div>
       <div class="col-12 text-center">
         <button class="btn ff-btn">
-          <a href="#"
+          <a href="#nav"
             >View All Courses <i class="fa-solid fa-arrow-right-long"></i
           ></a>
         </button>

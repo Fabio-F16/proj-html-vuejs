@@ -3,7 +3,7 @@
     <div class="container d-flex justify-content-between align-items-center">
       <img class="col-2" src="../assets/img/dark-logo.png" alt="Logo" />
 
-      <nav class="navbar navbar-expand-md">
+      <nav class="navbar navbar-expand-md" id="nav">
         <div class="container">
           <div class="collapse navbar-collapse">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
